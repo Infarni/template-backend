@@ -5,10 +5,10 @@ from sqlalchemy import pool
 
 from alembic import context
 
-import rps_backend.main
+import template_backend.main
 
-from rps_backend.database.config import database_settings
-from rps_backend.database.models import BaseModel
+from template_backend.database.config import database_settings
+from template_backend.database.models import BaseModel
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

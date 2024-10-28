@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from rps_backend.health.router import router as health_router
+from template_backend.health.router import router as health_router
 
 api_router: APIRouter = APIRouter(prefix="/api")
 

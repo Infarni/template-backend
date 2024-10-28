@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from rps_backend.database import service as database_service
+from template_backend.database import service as database_service
 
 from . import schemas
 

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rps-backend"
+name = "template-backend"
 version = "0.1.0"
 description = ""
 authors = ["archdrdr <archdroider@proton.me>"]
@@ -42,9 +42,9 @@ asyncio_default_fixture_loop_scope = "function"
 
 # Mypy settings
 [tool.mypy]
-python_version = 3.12
+python_version = "3.12"
 disallow_untyped_defs = true
-packages = ["rps_backend", "tests"]
+packages = ["template_backend", "tests"]
 
 # Ruff settings
 [tool.ruff]

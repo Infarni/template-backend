@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Mapped, mapped_column
 
-from rps_backend.database.models import BaseModel
+from template_backend.database.models import BaseModel
 
 
 class UserModel(BaseModel):

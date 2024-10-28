@@ -1,4 +1,4 @@
-from rps_backend.schemas import BaseSchema
+from template_backend.schemas import BaseSchema
 
 
 class HealthCheckSchema(BaseSchema):

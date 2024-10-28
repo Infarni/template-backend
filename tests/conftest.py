@@ -7,8 +7,8 @@ from httpx import AsyncClient, ASGITransport
 from sqlalchemy.ext.asyncio import AsyncSession
 
 
-from rps_backend.main import app
-from rps_backend.database.service import get_async_session
+from template_backend.main import app
+from template_backend.database.service import get_async_session
 
 
 @pytest_asyncio.fixture

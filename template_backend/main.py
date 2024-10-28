@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from rps_backend import constants, api
-from rps_backend.config import settings
+from template_backend import constants, api
+from template_backend.config import settings
 
 app: FastAPI = FastAPI(debug=settings.DEBUG, title="rps-backend")
 
